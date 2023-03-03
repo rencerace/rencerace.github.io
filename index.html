@@ -3,11 +3,21 @@
 <html>
     <head>
         <title>RENCERACE's Profile</title>
-        <link rel="stylesheet" href="/style.css">
-        <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+        <link rel="stylesheet" href="D:/teren/VS Code Projects/rencerace.github.io/style.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-        <fluent-button>Hello world</fluent-button>
+        <div class="navigation-bar">
+            <p>RENCERACE</p>
+        </div>
+        <fluent-tabs activeid="overview">
+            <fluent-tab id="overview">Overview</fluent-tab>
+            <fluent-tab id="projects">Projects</fluent-tab>
+            <fluent-tab id="schedules">Available Schedules</fluent-tab>
+        </fluent-tabs>
+        <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
     </body>
 </html>
